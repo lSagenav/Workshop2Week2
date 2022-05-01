@@ -3,6 +3,7 @@ package main;
 import exercise1.Practica1;
 import exercise2.Practice2;
 import exercise3.SorterBubbleQuick;
+import exercise4.CreateFerry;
 
 import java.util.Scanner;
 
@@ -49,7 +50,7 @@ public class Main {
                     SorterBubbleQuick.menu();
                     break;
                 case 4:
-
+                    CreateFerry.createVehicles();
                     break;
                 case 5:
 
