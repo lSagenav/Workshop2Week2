@@ -1,6 +1,8 @@
 package main;
 
 import exercise1.Practica1;
+import exercise2.Practice2;
+import exercise3.SorterBubbleQuick;
 
 import java.util.Scanner;
 
@@ -41,10 +43,10 @@ public class Main {
                     Practica1.Ejercicio1();
                     break;
                 case 2:
-
+                    Practice2.Practice2();
                     break;
                 case 3:
-
+                    SorterBubbleQuick.menu();
                     break;
                 case 4:
 
