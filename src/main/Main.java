@@ -4,6 +4,7 @@ import exercise1.Practica1;
 import exercise2.Practice2;
 import exercise3.SorterBubbleQuick;
 import exercise4.CreateFerry;
+import exercise5.Practice5;
 
 import java.util.Scanner;
 
@@ -53,7 +54,7 @@ public class Main {
                     CreateFerry.createVehicles();
                     break;
                 case 5:
-
+                    Practice5.ferryDos();
                     break;
                 case 6:
 
