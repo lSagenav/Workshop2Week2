@@ -5,6 +5,7 @@ import exercise2.Practice2;
 import exercise3.SorterBubbleQuick;
 import exercise4.CreateFerry;
 import exercise5.Practice5;
+import exercise6.CreateVector;
 
 import java.util.Scanner;
 
@@ -57,7 +58,7 @@ public class Main {
                     Practice5.ferryDos();
                     break;
                 case 6:
-
+                    CreateVector.createdVector();
                     break;
                 case 7:
                     activ = false;
