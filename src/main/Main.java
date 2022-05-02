@@ -47,7 +47,7 @@ public class Main {
             /**
              * Switch donde tendremos los case de todos los ejercicios,
              * donde los llamaremos y el se ira a esa parte del proyecto donde este codificada la opcion
-             * que el usuaio haya elegido 
+             * que el usuaio haya elegido
              */
             switch (option) {
                 case 1:
