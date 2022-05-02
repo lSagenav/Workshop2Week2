@@ -24,6 +24,10 @@ public class Boat extends Vehicles {
         this.flag = flag;
     }
 
+    /**
+     * metodo donde estaremos pidiendo los datos que se el daran al bote
+     * @return
+     */
     @Override
     public Vehicles createVehicle() {
         System.out.println("crear Lancha");

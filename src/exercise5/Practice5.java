@@ -26,6 +26,9 @@ public class Practice5 {
      */
     private static Scanner sc = new Scanner(System.in);
 
+    /**
+     * merodo donde estaremos dando la opcion al usuario que tipo de vehiculo crear con sus respectivos datos
+     */
     public static void ferryDos() {
         List<Vehicles> vehicles = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
@@ -38,7 +41,10 @@ public class Practice5 {
                     + "5. Lancha\n"
                     + "");
             int vehicleType = sc.nextInt();
-
+            /**
+             * Switch donde tendremos los tipos de carros que se iran a crear y posterior a ellos redirecionandolos
+             * a ese clase donde los estaremos desarrollando
+             */
             switch (vehicleType) {
                 case 1:
                     Vehicles v1 = new Car();

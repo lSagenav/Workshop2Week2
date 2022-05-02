@@ -27,6 +27,10 @@ public class Practica1 {
 
     static Scanner sc = new Scanner(System.in);
 
+    /**
+     * metodo donde estaremos desarrollando lo que sera la logica para realizar el calculo de la
+     * fuerza gravitacional de los 2 planetas
+     */
     public static void Ejercicio1() {
         Planet selecctionPlanet1;
         Planet selecctionPlanet2;

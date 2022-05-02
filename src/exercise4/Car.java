@@ -25,6 +25,16 @@ public class Car extends Vehicles {
 
     }
 
+    /**
+     * constructor el cual estaremos usando para dar y obtener daros de las variables que se le asignan al carro
+     * @param id
+     * @param name
+     * @param passengers
+     * @param matricule
+     * @param typeTransport
+     * @param Fuel
+     * @param topSpeed
+     */
     public Car(int id, String name, int passengers, String matricule, String typeTransport, String Fuel, double topSpeed) {
         this.id = id;
         this.name = name;
@@ -35,6 +45,10 @@ public class Car extends Vehicles {
         this.passengers = passengers;
     }
 
+    /**iniciamos los setter y getter
+     *
+     * @return
+     */
     public int getPassengers() {
         return passengers;
     }
@@ -95,6 +109,11 @@ public class Car extends Vehicles {
         this.topSpeed = topSpeed;
     }
 
+    /**
+     * metodo donde estaremos creando un carro y pidiendo algunos datos
+     * @param scanner
+     * @return
+     */
     public static Car createVehicles(Scanner scanner) {
         Car car = new Car();
         System.out.println("Por favor ingrese el id".toUpperCase());

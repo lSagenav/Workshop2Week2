@@ -24,6 +24,18 @@ public class Vehicles implements VehicleCreator {
 
     }
 
+    /**
+     * contructor donde tendremos las variables que s ele han orotgado a los vehiculos
+     * @param id
+     * @param matricule
+     * @param wheels
+     * @param passengers
+     * @param numberOfChairs
+     * @param name
+     * @param typeTransport
+     * @param fuel
+     * @param topsSpeed
+     */
     public Vehicles(int id, String matricule, int wheels, int passengers, int numberOfChairs, String name, String typeTransport, String fuel, double topsSpeed) {
         this.id = id;
         this.wheels = wheels;
@@ -37,6 +49,11 @@ public class Vehicles implements VehicleCreator {
 
     }
 
+    /**
+     * setter y getter cual cuales se usaran ya sea para pedir algun dato o ya sea para mandar algun
+     * dato a las variables que se usaran en los vehiculos
+     * @return
+     */
     public String getMatricule() {
         return matricule;
     }

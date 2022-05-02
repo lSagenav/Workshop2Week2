@@ -29,6 +29,10 @@ public class CreateVector {
 
     static private Random numRandom = new Random();
 
+    /**
+     * metodo en el cual estaremos desarrollando la logica de crear un vector con numeros aleatorios y a su vez
+     * cuando se ingrese un numero repetido el programa se detendra y mostrara ppor consola los datos del arreglo
+     */
     public static void createdVector() {
         System.out.println(("\n Si el número ingresado ya existe en el Array el programa se detendra \n" +
                 " posterior a esto te mostrara el Array con todos los datos ingresados  \n"

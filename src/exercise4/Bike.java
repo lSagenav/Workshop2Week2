@@ -26,6 +26,10 @@ public class Bike extends Vehicles {
         this.havePedals = havePedals = true;
     }
 
+    /**
+     * metodo donde estaremos pidiento los datos a ingresar de la bici
+     * @return
+     */
     @Override
     public Vehicles createVehicle() {
         System.out.println("crear cicla");

@@ -5,7 +5,7 @@ package exercise2;
  *
  * @author Scorpion
  * 
- * Aqui podremos observar que realizaremos la impresion del archivo plano por consola 
+ * Aqui  realizaremos la impresion del archivo plano por consola
  * que lo estaremos llando a la url del proyecto " la raiz "
  */
 public class Practice2 {

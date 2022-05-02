@@ -22,10 +22,13 @@ public class Truck extends Vehicles {
     public void setHeight(boolean height) {
         this.height = height;
     }
-    
-    
-    
-     @Override
+
+
+    /**
+     * metodo donde estaremos pidiendo algunos datos al momento de crear el camion
+     * @return
+     */
+    @Override
     public Vehicles createVehicle() {
         System.out.println("crear Camion");
         Scanner scanner = new Scanner(System.in);

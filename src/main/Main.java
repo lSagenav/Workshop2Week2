@@ -9,6 +9,10 @@ import exercise6.CreateVector;
 
 import java.util.Scanner;
 
+/**
+ * clase principal donde tendremos el control de la ejecucion de todos los ejercicios por medio
+ * de un menu
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -40,7 +44,11 @@ public class Main {
                 System.out.println("dato incorrecto".toUpperCase());
 
             }
-
+            /**
+             * Switch donde tendremos los case de todos los ejercicios,
+             * donde los llamaremos y el se ira a esa parte del proyecto donde este codificada la opcion
+             * que el usuaio haya elegido 
+             */
             switch (option) {
                 case 1:
                     Practica1.Ejercicio1();

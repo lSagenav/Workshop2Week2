@@ -8,8 +8,8 @@ import java.util.concurrent.ThreadLocalRandom;
 /**
  * @author Scorpion
  * 
- * En esta clase estaremos creando la logica para realizar el ordenamiento de un Array por medio de 
- * el ordenamiento Borbuja y QuickSort
+ * En esta clase estaremos creando la logica para realizar el ordenamiento de un Array por medio del
+ * metodo Borbuja y QuickSort
  * 
  * dicho Array se crea mediando un Ramdon para llenar el Array con numeros aleatorios
  */
@@ -19,6 +19,10 @@ public class SorterBubbleQuick {
     static Scanner sc = new Scanner(System.in);
     static int[] numberArray = new int[5];
 
+    /**
+     * metodo que usaremos para hacer el llamado del menu de las funciones del punto
+     *
+     */
     public static void menu() {
 
         System.out.println("---------------------------");
@@ -33,7 +37,10 @@ public class SorterBubbleQuick {
         System.out.println(Arrays.toString(numberArray));
 
         boolean menuLoop = true;
-
+        /**
+         * menu donde estaremos dando la eleccion al usuario porqie metodo realizar el
+         * ordenamiento del arreglo creado previamente por el random
+         */
         while (menuLoop) {
             System.out.println("Escoja una opción para realizar el arreglo: \n" +
                     "1. Burbuja\n" +
@@ -41,6 +48,10 @@ public class SorterBubbleQuick {
                     "3. Salir");
             int option = sc.nextInt();
             int[] sorted = new int[numberArray.length];
+            /**
+             * Switch donde estaremos interactuando entre las funciones que se han generado para
+             * realizar el ordenamiento del arreglo
+             */
             switch (option) {
                 case 1:
                     System.out.println("Arreglo inicial");
@@ -70,6 +81,12 @@ public class SorterBubbleQuick {
         }
     }
 
+    /**
+     * metodo por el cual estaremos realizando el ordenamiento del arreglo por el famoso
+     * ordenamiento burbuja
+     * @param array
+     * @return
+     */
     private static int[] orderBubble(int[] array) {
         int[] sortedArray = Arrays.copyOf(array, array.length);
         try {
@@ -90,6 +107,14 @@ public class SorterBubbleQuick {
         return sortedArray;
     }
 
+    /**
+     * metodo QuickSort el cual sera el otro metodo por el cual el usuario tendra en el menu
+     * en caso que desee organizar el areglo por este metodo
+     * @param array
+     * @param firstNum
+     * @param lastNum
+     * @return
+     */
     private static int[] MakeOrderQuickSort(int[] array, int firstNum, int lastNum) {
         int[] sortedArray = Arrays.copyOf(array, array.length);
         int pivot = sortedArray[firstNum];

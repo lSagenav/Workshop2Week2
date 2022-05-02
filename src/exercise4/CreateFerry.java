@@ -15,6 +15,10 @@ public class CreateFerry {
 
     private static Scanner sc = new Scanner(System.in);
 
+    /**
+     * metodo donde estaremos creando el ferry donde deberemos ingresar 10 carros con sus dato antes
+     * de que se os muestren por consola
+     */
     public static void createVehicles() {
         List<Vehicles> vehicles = new ArrayList<>();
         System.out.println("Por favor ingrese los datos que se pediran a conitnuación para la creación del carro");

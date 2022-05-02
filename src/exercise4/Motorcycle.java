@@ -4,7 +4,7 @@ package exercise4;
 import java.util.Scanner;
 
 /**
- *
+ * clase donde estaremos desarrollando la logica de la creacion de las motos
  * @author Scorpion
  */
 public class Motorcycle extends Vehicles {
@@ -27,6 +27,10 @@ public class Motorcycle extends Vehicles {
         this.haveLeg = haveLeg;
     }
 
+    /**
+     * metodo donde estaremos pidiendo algunos para al momento de crear la moto
+     * @return
+     */
     @Override
     public Vehicles createVehicle() {
         System.out.println("crear Moto");
